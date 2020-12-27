@@ -11,15 +11,15 @@
 			$(this).css('color', 'white');
 		});
 
-		$('a').click(function () {
+		$('a').on("click", function () {
 			alert("we don't actually serve pizza...");
 		});
 
-		$('img').click(function () {
+		$('img').on("click", function () {
 			$(this).slideUp();
 		});
 
-		$('h5').click(function () {
+		$('h5').on("click", function () {
 			$('img').slideDown();
 		});
 
